@@ -1,0 +1,51 @@
+.header-title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color:#000080;
+    margin-top: 10px;
+    margin-left:10px;
+    left: 20px;
+
+}
+
+.header-nav-list{
+    display:flex;
+    justify-content:flex-end;
+    bottom:15px;
+    list-style:none;
+    font-family:'Roboto', sans-serif ;
+    font-weight: bold;
+    
+}
+
+.header-nav-item{
+    margin-right:25px
+}
+
+a {
+    text-decoration: none;
+    color:#000080
+}
+
+.eyecatch-img{
+    position:relative;
+    top: 100px;
+    left: 50%;
+    width:50%;
+    z-index: 10;
+}
+.catch-copy{
+    font-size: 70px;
+    position: relative;
+    bottom:80px;
+    z-index: 11;
+}
+.bg-blue{
+    width: 70%;
+    height: 200px;
+    background-color: #000080;
+    z-index: 0;
+    position: relative;
+    bottom: 80px;
+}
+
